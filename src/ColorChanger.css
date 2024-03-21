@@ -1,0 +1,43 @@
+.color-changer-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-changer-title {
+    margin-bottom: 10px;
+}
+
+.hex-display {
+    width: 20%;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hex-display input {
+    width: 69%;
+    padding: 5px 0;
+    padding-left: 20px;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 0 0 1px lightgrey;
+}
+
+.hex-display button {
+    width: 21%;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 0 0 1px rgb(193, 193, 193);
+}
+
+.btn-change {
+    width: 20%;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
