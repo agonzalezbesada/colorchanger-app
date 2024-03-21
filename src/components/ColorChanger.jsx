@@ -13,6 +13,10 @@ export default function ColorChanger() {
         Math.floor(Math.random() * 256).toString(16));
     }
 
+    function copyColor() {
+      navigator.clipboard.writeText(bgColor)
+    }
+
 
 
 
@@ -25,7 +29,7 @@ export default function ColorChanger() {
       </h1>
       <div className="hex-display">
         <input type="text" name="hex-field" id="hex-field" value={bgColor.toString()} />
-        <button className="btn-copy" style={{backgroundColor: `${bgColor}`}}>copy</button>
+        <button className="btn-copy" style={{backgroundColor: `${bgColor}`}} onClick={copyColor}>copy</button>
       </div>
       <button
         className="btn-change"
