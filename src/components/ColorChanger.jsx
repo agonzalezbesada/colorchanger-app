@@ -17,11 +17,6 @@ export default function ColorChanger() {
       navigator.clipboard.writeText(bgColor)
     }
 
-
-
-
-  // style={{backgroundColor: `${bgColor}`}}
-
   return (
     <div className="color-changer-container" style={{backgroundColor: `${bgColor}`}}>
       <h1 className="color-changer-title">
